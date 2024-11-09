@@ -1,0 +1,82 @@
+.offer-Sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Open Sans", sans-serif;
+    background-image: url(./../../assets/images/BGoffer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.left-part-offer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    max-width: 569px;
+    background-color: #FFFFFF4D;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+.left-part-offer h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.58px;
+    padding-bottom: 32px;
+    color: #333333;
+    text-align: center;
+
+
+}
+.left-part-offer p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+    padding-bottom: 32px;
+    text-align: center;
+
+}
+.img-offer{
+    width: 100%;
+    max-width: 427px;
+    margin-top: -140px;
+
+} 
+
+@media (max-width:1200px){
+    /* .img-offer{
+        padding-top: 30px;
+        display: block;
+        margin: auto;
+    
+    }
+    .left-part-offer{
+        margin: auto;
+
+    } */
+    .offer-Sec{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    
+    }
+    .img-offer{
+        margin-top: -140px;
+    
+    } 
+
+
+
+
+}

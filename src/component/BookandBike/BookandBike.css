@@ -1,0 +1,123 @@
+.BookSec{
+    display: flex;
+    justify-content: space-between;
+    font-family:"Open Sans", sans-serif;
+    padding-top: 60px;
+    background-image: url(./../../assets/images/BGoffer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.LeftBookSec{
+    display: flex;
+    flex-direction: column;    
+}
+.FormBookSec{
+    width: 100%;
+    max-width :734px;
+    background-color:#FFFFFF4D;
+    padding: 30px 34px;
+    margin-bottom: 60px ;
+    margin-top: 36px;
+    border-radius: 24px;
+}
+.Formflex{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.Formflex label{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    color: #333333;
+    /* margin-bottom: 8px; */
+}
+.Formflex input{
+    width: 100%;
+    max-width: 318px;
+    height: 50px;
+    text-indent: 24px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+
+}
+.Formflex input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    opacity: 0.5;
+}
+
+.imageBike{
+    width: 100%;
+    max-width: 724px;
+    /* margin-bottom: -60px !important; */
+    position: absolute;
+    right: 200px;
+    bottom: -50px;
+
+}
+
+/* .div-relative{
+    position: relative;
+        
+}*/
+.icon-form-absolute{
+    position: relative !important;
+    left: 50x;
+    
+
+} 
+
+@media (max-width:1800px) and (min-width:1301px){
+    .imageBike{
+        right: 50px;
+        position: relative;
+        width: 50%;
+    }
+        /* .BookSec{
+        gap: 10px;
+        justify-content: space-between;
+
+    } */
+
+
+}
+
+@media (max-width:1300px){
+
+    .imageBike{
+        position: relative;
+        right: 0;
+
+    }
+
+    .BookSec{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+@media (max-width:600px){
+    .Formflex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+
+
+
+
+
+}

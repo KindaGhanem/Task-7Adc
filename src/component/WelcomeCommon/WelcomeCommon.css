@@ -1,0 +1,94 @@
+.sectionWelcome{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+    gap: 20px;
+    padding-bottom: 197px;
+}
+.girlImg{
+    width: 100%;
+    max-width: 450px;
+}
+.cityimg{
+    width: 100%;
+    max-width: 650px;
+}
+
+.welcome-right-part{
+    /* width: 57.18%; */
+    width: 100%;
+    max-width: 700px;
+    font-family:"Open Sans", sans-serif;
+}
+.welcome-right-part h5{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    padding-bottom: 6px;
+    opacity: 0.6;
+
+
+}
+.welcome-right-part h2{
+    color: #333333;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.58px;
+    padding-bottom: 32px;
+}
+.welcome-right-part p{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 100%;
+    max-width: 700px;
+    padding-bottom: 32px;
+
+    
+}
+.Allnumberscard{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.numbercard{
+    width: 83px;
+}
+.numbercard div{
+    color: #FA8B02;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 6px;
+}
+.numbercard span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333333;
+    opacity: 0.6;
+    
+}
+
+@media (max-width:1200px){
+
+    .sectionWelcome{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+}
+
+
+
+
+

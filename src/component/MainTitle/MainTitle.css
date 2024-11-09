@@ -1,0 +1,22 @@
+.MainTitle{
+    font-family:"Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.58px;
+    color: #333333;
+}
+.semibold{
+    font-weight: 700 !important;
+}
+.auto{
+    margin: auto;
+}
+
+
+@media (max-width:992px){
+
+    .MainTitle{
+        font-size: 20px;
+        
+    }
+}

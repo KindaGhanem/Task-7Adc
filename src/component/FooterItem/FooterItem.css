@@ -1,0 +1,52 @@
+.footerTitle{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+
+}
+.footerlists{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    gap: 10px;
+
+}
+.footerlists li ,
+.social li{
+    list-style-type: none;
+}
+
+.social{
+    display: flex;
+    gap: 23.12px;
+    margin-top: 20px;
+}
+.iconContactFooter{
+    font-size: 24px;
+    color: #FA8B02;
+    margin-right: 10px;
+}
+.FooterItemComp{
+    display: flex;
+    flex-direction: column;
+}
+.iconcontactDiv{
+    display: inline;
+}
+.iconSocialtDiv{
+    width: 50px;
+    height: 50px;
+    background-color: #FA8B02;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.SocialFooter{
+    color: #333333;
+    font-size: 22px;
+}

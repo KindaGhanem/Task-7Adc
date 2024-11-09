@@ -1,0 +1,116 @@
+.Navbar{
+      width: 100%;
+      height: 170px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed  !important;
+      z-index: 3;
+      /* background-color: #FFFFFF33; */
+      font-family:"Open Sans", sans-serif;
+    }
+
+.Navbar .logo{
+    width: 133px;
+}
+.AllItem{
+    display: flex;
+    justify-content:space-between ;
+    width: 71.05%;
+}
+
+.Navbar .AllItem  ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.Navbar ul li{
+    list-style-type: none;
+    color: white;
+}
+.Navbar ul li a{
+    position: relative;
+    text-decoration: none;
+    cursor:grab ;
+    transition: 0.5s;
+    font-weight: 600 !important;
+    line-height: 27.24px;
+    font-size: 20px !important;
+}
+.active{
+    border-bottom: 2px solid #FA8B02
+}
+.btns{
+  display: flex;
+  gap: 10px;
+}
+.btns button{
+  font-weight: 600 !important;
+  line-height: 27.24px;
+  font-size: 20px !important;
+  color: white;
+}
+.btn2{
+  width:77px;
+  height: 47px;
+  background-color: transparent;
+  border: none;
+}
+.Bars{
+    display: none !important;
+    font-size: 30px;
+    color: white;
+}
+
+   
+
+@media (max-width:1360px){
+  .Navbar .AllItem  ul{
+    gap: 10px;
+}
+  .Navbar ul li a{
+    font-size: 14px !important;
+  }
+.btns button{
+  font-size: 14px !important;
+}
+.Navbar .logo{
+  width: 90px;
+  object-fit: contain;
+}
+  }
+
+    
+    @media (max-width:992px){
+    .Bars{
+      display: block !important;
+    }
+    .Navbar .AllItem{
+      transition: 0.5s;
+      transform: translateY(-500%);
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: white;
+    }
+    .Navbar .AllItem.open{
+      transform: translateY(0%);
+      top: 0;
+      width: 100%;
+      background-color:#333333;
+      width: 100%;
+      height: 100vh;
+      font-size: 30px;
+    }
+    .Navbar ul ,
+    .btns {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 30px;
+    }
+  }

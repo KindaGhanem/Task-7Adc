@@ -1,0 +1,45 @@
+.footer{
+    font-family:"Open Sans", sans-serif;
+    color: white;
+    background-color:#333333 ;
+    padding-top: 40px;
+}
+.AllListsFooter{
+    margin-top: 33px;
+    display: flex;
+
+    gap: 93.7px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF ;
+}
+.footercopy{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 33px;
+    padding-bottom: 40px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:1200px){
+    .AllListsFooter{
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width:600px){
+    .AllListsFooter{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+
+
+
+
+}

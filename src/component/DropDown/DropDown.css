@@ -1,0 +1,11 @@
+.btndrop{
+  opacity: 0.5;
+  background: none !important;
+  border: none !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.font{
+  font-size: 18px;
+}

@@ -1,0 +1,41 @@
+.CounterSec{
+    padding-top: 83px;
+    padding-bottom: 83px;
+    background-image: url(./../../assets/images/BGoffer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    gap:83px;
+    font-family:"Open Sans", sans-serif;
+    flex-wrap: wrap;
+
+}
+.cardCounter{
+    width:292.5px;
+    background: #FFFFFF4D;
+    border-radius: 24px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+
+}
+.cardCounter img{
+    width: 60px;
+
+    
+}
+.cardCounter p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    text-align: center;
+    color: #000000;
+
+
+
+}

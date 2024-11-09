@@ -1,0 +1,17 @@
+.packageCards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.PackageSec{
+    padding-top:120px !important;
+}
+
+@media (max-width:1350px){
+    .packageCards{
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items:center ;
+    }
+  
+  }

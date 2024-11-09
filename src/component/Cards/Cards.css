@@ -1,0 +1,179 @@
+.CardsCommon{
+    width: 100%;
+    max-width: 330px;
+    border-radius: 24px;
+    font-family:"Open Sans", sans-serif;
+}
+.CardsCommon .mainimg{
+    width: 100%;
+    padding-bottom: 16px;
+    object-fit:contain ;
+}
+.CardsCommon h2{
+    color: #333333;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+    padding-bottom: 12px;
+}
+.CardsCommon span{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    color: #333333;
+
+}
+.CardsCommon span .price{
+    color: #FA8B02;
+    font-size: 24px !important;
+    font-weight: 800;
+    line-height: 32.68px;
+    padding-left: 10px;
+    border: none;
+
+}
+.Carddateday{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.6;
+}
+.icondateday{
+    font-size: 18.2px;
+}
+.Carddateday div{
+    display: flex;
+    gap:6px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    color: #FA8B02;
+    padding-bottom:12px;
+    padding-top: 12px;
+}
+.CardsCommon .par1{
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.Explorenone{
+    display: none;
+}
+.transportnone{
+    display: none;
+}
+/* .margin{
+    margin-bottom: 20px;
+} */
+.cardPricenone{
+    display: none;
+}
+.cardPricewidth{
+    width: 100%;
+    max-width: 340px !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+.cardPricefont{
+    font-size:20px !important;
+    margin-top: 25px;
+    margin-bottom:16px ;
+    width: max-content;
+    padding-left: 25px;
+    font-weight: 800 !important;
+}
+.CardsCommon .par2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.37px;
+    color: #FA8B02;
+    padding-left: 25px;
+}
+.CardsCommon .par2 .span1{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+   position: relative;
+   bottom: 30px;
+   opacity: 0.5;
+}
+.CardsCommon .par2 .span2{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    position: relative;
+
+    opacity: 0.6;
+}
+.CardsCommon ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:32px;
+    padding-left: 25px;   
+    margin-bottom: 16px;
+    width: 100%;
+
+}
+.CardsCommon ul li{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    display: flex;
+    gap: 16px ;
+}
+.CardsCommon ul li img{
+    width: 24px;
+    height: 24px;
+}
+
+
+.cardCustomerSay{
+    width: 100%;
+    max-width: 700px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+    border: 1px solid #EFEFEF;
+    padding: 30px;
+}
+.cardCustomTitle{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.cardCustomIcon{
+    color: #FA8B02 ;
+    opacity: 0.2;
+    font-size:40px ;
+
+}
+.cardCustomtext{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 100%;
+    max-width: 600px;
+
+
+}
+
+
+@media (max-width:992px){
+    .CardsCommon .mainimg{
+        padding-bottom: 6px;
+    }
+
+    .CardsCommon h2{
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+}

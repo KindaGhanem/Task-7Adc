@@ -1,0 +1,48 @@
+.btn3{
+    background-color: #FA8B02;
+    border-radius: 50px;
+    width: 168px;
+    height: 47px;
+    padding: 10px 24px;
+    border: none;
+    font-size: 20px;
+}
+.width{
+    width: 100%;
+    color: white;
+}
+
+
+.google{
+    border: 1px solid #33333333 !important;
+    width: 100% !important;
+    color: #333333 !important;
+    background-color: white !important;
+    opacity: 0.4;
+
+
+}
+/* .google::placeholder{
+    opacity: 0.4 !important;
+
+} */
+.contact{
+    color: white !important;
+    width: 212px !important;
+    display: block;
+margin: auto;
+}
+.price{
+    background-color: white;
+    color: #FA8B02;
+    border: 1px solid #FA8B02;
+    width:290px;
+    margin-left: 25px;
+}
+.herobtn{
+    width: 278.25px;
+    color: white;
+    border: 1.5px solid #FFFFFF;
+    background-color: transparent !important;
+
+}

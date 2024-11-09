@@ -1,0 +1,167 @@
+
+@font-face {
+    font-family: 'podcast1';
+    src: url(./../../app/fonts/Podcast-Font/Podcast.otf);
+}
+
+
+.Hero{
+    width: 100%;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Open Sans", sans-serif;
+    padding-top: 129px;
+
+
+}
+.HeroHome{
+    background-image: url("./../../assets/images/Hero-Home.png");
+}
+.HeroAbout{
+    background-image: url("./../../assets/images/HeroAbout.png");
+}
+
+.Hero h1{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72.65px;
+    color:white;
+    padding-bottom: 16px;
+    font-family: 'podcast1' !important;
+    
+}
+.Hero p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+    color:white;
+    padding-bottom: 60px;
+    /* width: 100%;
+    max-width: 847.75px; */
+
+    
+}
+.ParHeroAbout{
+    width: 100%;
+    max-width: 847.75px;
+
+}
+.Hero-Tabs{
+    width: 100%;
+    max-width: 1383px;
+    height: 208px;
+    border-radius: 12px;
+    background-color: #FFFFFF33;
+    padding: 20px;
+    border-radius: 12px;
+    
+
+}
+.Hero-btns{
+    display: flex;
+    gap: 0;
+}
+.Hero-btns button{
+    gap: 10px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    background: #FFFFFF66;
+    border: none;
+    color: white;
+
+}
+
+.Hero-btns1{
+    border-top-left-radius: 12px;
+    background-color: white !important;
+    color: #FA8B02 !important;
+}
+.Hero-btns2{
+    border-top-right-radius: 12px;
+}
+
+.HeroCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:12px ;
+    background-color: white;
+    border-radius: 12px;
+    gap: 12px;
+    border-top-left-radius: 0;
+}
+.HeroCardInfo{
+    display: flex;
+    gap:7px;
+}
+.HeroCardDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap:6px;
+}
+.HeroCardDesc h5{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: center;
+
+
+}
+.HeroCardInfo .cardiconhero{
+    font-size: 24px;
+    color: #333333;
+}
+.searchbtn{
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    border:none;
+    background-color: #FA8B02;
+    color: white;
+    font-size: 32px;
+
+}
+.noneabout{
+    display: none;
+}
+.blockabout{
+    display: block;
+}
+
+      
+@media (max-width:992px){
+    .Hero{
+        padding-top: 30px;
+        
+    }
+    .Hero h1{
+        font-size: 40px;
+        
+    }
+    .Hero p{
+        font-size: 14px;
+        padding-bottom: 10px;
+
+        
+    }
+}
+@media (max-width:500px){
+    .Hero{
+        padding-top: 170px;
+        justify-content: flex-start;
+    }
+    
+}
