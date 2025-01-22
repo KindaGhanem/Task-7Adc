@@ -1,9 +1,9 @@
-'use client'
+'use client';
 
 import Link from 'next/link'
 import './NavBar.css'
 import Image from 'next/image'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import DropDown from '../DropDown/DropDown'
 import ButtonCommon from '../ButtonCommon/ButtonCommon'
 import RegisterComponent from '../RegisterComponent/RegisterComponent'
@@ -43,8 +43,7 @@ const NavBar = ({logo , altlogo , children , items , btnSign ,  icon , btnLog , 
 
     function showPopUplogin() {
         setshowlogin(prev => !prev);
-      }
-
+    }
 
     const[showlogout , setshowlogout] = useState(true)
 
@@ -57,7 +56,7 @@ const NavBar = ({logo , altlogo , children , items , btnSign ,  icon , btnLog , 
     
   return (
     <>
-    <nav ref={nav} className= {'Navbar padding-main'}>
+    <nav ref={nav} className= {'Navbar padding-main bigScreen'}>
         <Image src={logo} alt={altlogo} className='logo' ></Image>
 
         

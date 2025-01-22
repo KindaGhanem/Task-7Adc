@@ -8,7 +8,7 @@ export default function Cards({CardsProps , transportnone , cardPrice ,Explore ,
         {CardsProps?.map((element, index) => {
             return(
                 <div className={`CardsCommon ${cardPrice ? 'cardPricewidth' :''} ${customerSay ? 'cardCustomerSay' :''} `} key={index}>
-                    <Image className='mainimg' src={element.imgCard} alt={element.altimg}></Image>
+                    <Image className={`mainimg  ${customerSay ? 'contain' :''}  `} src={element.imgCard} alt={element.altimg}></Image>
                     <h2 className={`${transportnone ? 'margin' : ''} ${cardPrice ? 'cardPricefont' :''} ${customerSay ? 'cardCustomTitle' :''}  `} >{element.cardTitle}</h2>
                     <span className= {`${transportnone ? 'transportnone' : ''}   ${cardPrice ? 'cardPricenone' :''} ${customerSay ? 'transportnone' : ''} `} > {element.world} <span className='price'>{element.price}</span></span>
                     <div className={`Carddateday ${transportnone ? 'transportnone' : ''} ${cardPrice ? 'cardPricenone' :''} ${customerSay ? 'transportnone' :''}  `}>

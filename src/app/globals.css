@@ -31,6 +31,14 @@ a {
   }
 
 }
+@media (min-width:1920px){
+  .bigScreen{
+    width: 100% !important;
+    max-width: 1920px !important;
+    margin: auto !important;
+  }
+
+}
 
 @media (max-width:1750px){
   .padding-main{

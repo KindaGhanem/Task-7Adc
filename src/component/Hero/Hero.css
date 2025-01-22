@@ -160,8 +160,36 @@
 }
 @media (max-width:500px){
     .Hero{
-        padding-top: 170px;
+        padding-top: 90px;
         justify-content: flex-start;
     }
+    .Hero h1{
+        font-size: 20px;
+        padding-bottom: 6px !important;
+        line-height: 30.65px;
+        
+    }
+    .Hero p{
+        font-size: 12px;
+        padding-bottom: 5px;
+
+        
+    }
+    .HeroCardDesc h5{
+        font-size: 14px;
     
+    }
+    .Hero-btns button{
+        padding: 10px;
+        font-size: 16px;
+
+    
+    }
+    .searchbtn{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    
+    }
+
 }
